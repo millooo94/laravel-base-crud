@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function home() {
-        return view('guest.home');
+        return view('home');
     }
     public function dashboard() {
-        return view('guest.dashboard');
+        return view('dashboard');
     }
 }
