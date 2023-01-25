@@ -9,12 +9,25 @@
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
-    @include('partials.navbar')
-    <div class="container">
-        <h1>@yield('title')</h1>
-        <main>
+    <header class="position-relative">
+        <div class="header-band"></div>
+        <nav class="navbar navbar-expand-lg bg-light position-relative">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ route('home') }}">Comics</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    @yield('headerContent')
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <h1>@yield('title')</h1>
             @yield('content')
-        </main>
-    </div>
+        </div>
+    </main>
 </body>
 </html>

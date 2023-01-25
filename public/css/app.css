@@ -21109,3 +21109,179 @@ readers do not read off random characters that represent icons */
 .fa-steam-symbol:before {
   content: "\f3f6";
 }
+
+h1, .h1 {
+  text-align: center;
+  font-size: 7rem;
+  text-transform: uppercase;
+  text-shadow: aqua;
+}
+
+.button {
+  height: -moz-fit-content;
+  height: fit-content;
+  left: 45rem;
+  width: 6rem;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn {
+  width: 6rem;
+}
+
+.index-card {
+  border-radius: 60px;
+}
+
+.index-card img {
+  height: 100%;
+}
+
+.index-card div {
+  text-transform: uppercase;
+}
+
+.index-card .text-muted {
+  text-transform: lowercase;
+}
+
+.index-card .card-body {
+  padding: 0 !important;
+}
+
+.show-card div {
+  text-transform: uppercase;
+}
+
+.show-card .text-muted {
+  text-transform: lowercase;
+}
+
+.card .paragraph {
+  font-size: 12px !important;
+  text-transform: none;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2, .h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 2rem;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input, .form-control textarea {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #3498db;
+}
+
+.form-control textarea:focus {
+  outline: 0;
+  border-color: #3498db;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  width: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #E0CBA8;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-band {
+  height: 1.5rem;
+  background-color: #779fa1;
+}
+
+.navbar-brand {
+  border: 2px solid #564154;
+  border-radius: 5px;
+  padding: 0.2em;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #564154;
+}
+
+.navbar .btn:hover {
+  background-color: #779fa1;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+input::-moz-placeholder {
+  padding-left: 0.2rem !important;
+}
+
+input::placeholder {
+  padding-left: 0.2rem !important;
+}

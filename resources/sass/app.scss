@@ -4,4 +4,55 @@ $fa-font-path: "./fonts/font-awesome" !default;
 @import "~@fortawesome/fontawesome-free/scss/regular";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
+@import 'partials/home.scss';
+@import 'partials/index.scss';
+@import 'partials/show.scss';
+@import 'partials/create.scss';
+@import 'partials/config.scss';
+
+
+body {
+    position: relative;
+    background-color: #E0CBA8;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.header-band {
+    height: 1.5rem;
+    background-color: #779fa1;
+}
+
+.navbar-brand {
+    border: 2px solid #564154;
+    border-radius: 5px;
+    padding: .2em;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #564154;
+}
+.navbar .btn:hover {
+    background-color: #779fa1;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+input::placeholder {
+    padding-left: .2rem !important;
+}
+
 
